@@ -1,0 +1,117 @@
+{
+  "$schema": "./schemas/customization.schema.json",
+  "format": "git-template-customization",
+  "formatVersion": "0.2.0",
+  "entries": [
+    {
+      "id": "brand",
+      "title": "品牌与联系方式",
+      "description": "修改品牌与联系方式并验证受影响页面",
+      "files": [
+        {
+          "path": "src/features/site-templates/catalog/coovia/config.ts",
+          "kind": "file",
+          "purpose": "品牌与联系方式"
+        }
+      ],
+      "constraints": [
+        "保留双语、原生可访问性与作用域隔离",
+        "禁止未经批准增加依赖或外部服务"
+      ],
+      "checks": [
+        "typecheck",
+        "lint",
+        "build",
+        "test"
+      ]
+    },
+    {
+      "id": "content",
+      "title": "双语内容",
+      "description": "修改双语内容并验证受影响页面",
+      "files": [
+        {
+          "path": "src/features/site-templates/catalog/coovia/content",
+          "kind": "directory",
+          "purpose": "双语内容"
+        }
+      ],
+      "constraints": [
+        "保留双语、原生可访问性与作用域隔离",
+        "禁止未经批准增加依赖或外部服务"
+      ],
+      "checks": [
+        "typecheck",
+        "lint",
+        "build",
+        "test"
+      ]
+    },
+    {
+      "id": "theme",
+      "title": "主题样式",
+      "description": "修改主题样式并验证受影响页面",
+      "files": [
+        {
+          "path": "src/features/site-templates/catalog/coovia/theme.css",
+          "kind": "file",
+          "purpose": "主题样式"
+        }
+      ],
+      "constraints": [
+        "保留双语、原生可访问性与作用域隔离",
+        "禁止未经批准增加依赖或外部服务"
+      ],
+      "checks": [
+        "typecheck",
+        "lint",
+        "build",
+        "test"
+      ]
+    },
+    {
+      "id": "motion",
+      "title": "交互与动效",
+      "description": "修改交互与动效并验证受影响页面",
+      "files": [
+        {
+          "path": "src/features/site-templates/catalog/coovia/components",
+          "kind": "directory",
+          "purpose": "交互与动效"
+        }
+      ],
+      "constraints": [
+        "保留双语、原生可访问性与作用域隔离",
+        "禁止未经批准增加依赖或外部服务"
+      ],
+      "checks": [
+        "typecheck",
+        "lint",
+        "build",
+        "test"
+      ]
+    },
+    {
+      "id": "pages",
+      "title": "页面组合",
+      "description": "修改页面组合并验证受影响页面",
+      "files": [
+        {
+          "path": "src/features/site-templates/catalog/coovia/pages",
+          "kind": "directory",
+          "purpose": "页面组合"
+        }
+      ],
+      "constraints": [
+        "保留双语、原生可访问性与作用域隔离",
+        "禁止未经批准增加依赖或外部服务"
+      ],
+      "checks": [
+        "typecheck",
+        "lint",
+        "build",
+        "test"
+      ]
+    }
+  ]
+}

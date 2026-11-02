@@ -1,0 +1,1210 @@
+{
+  "checkedAt": "2026-11-02T18:21:27.625Z",
+  "browser": "Codex 内置浏览器",
+  "checks": [
+    {
+      "device": "desktop",
+      "page": "home",
+      "brokenImages": [],
+      "contentWidth": 1430,
+      "scrollWidth": 1430,
+      "viewport": [
+        1440,
+        1000
+      ]
+    },
+    {
+      "device": "desktop",
+      "page": "menu",
+      "brokenImages": [],
+      "contentWidth": 1425,
+      "scrollWidth": 1425,
+      "viewport": [
+        1440,
+        1000
+      ]
+    },
+    {
+      "device": "desktop",
+      "page": "journal",
+      "brokenImages": [],
+      "contentWidth": 1430,
+      "scrollWidth": 1430,
+      "viewport": [
+        1440,
+        1000
+      ]
+    },
+    {
+      "device": "desktop",
+      "page": "reservation",
+      "brokenImages": [],
+      "contentWidth": 1430,
+      "scrollWidth": 1430,
+      "viewport": [
+        1440,
+        1000
+      ]
+    },
+    {
+      "check": "reservation-local-submit",
+      "passed": true
+    },
+    {
+      "check": "language-query-hash",
+      "url": "http://localhost:3041/en/menu?test=language#iced",
+      "passed": true
+    },
+    {
+      "device": "tablet",
+      "page": "home",
+      "brokenImages": [],
+      "contentWidth": 824,
+      "scrollWidth": 824,
+      "viewport": [
+        834,
+        1180
+      ]
+    },
+    {
+      "device": "tablet",
+      "page": "menu",
+      "brokenImages": [],
+      "contentWidth": 824,
+      "scrollWidth": 824,
+      "viewport": [
+        834,
+        1180
+      ]
+    },
+    {
+      "device": "tablet",
+      "page": "journal",
+      "brokenImages": [],
+      "contentWidth": 824,
+      "scrollWidth": 824,
+      "viewport": [
+        834,
+        1180
+      ]
+    },
+    {
+      "device": "tablet",
+      "page": "reservation",
+      "brokenImages": [],
+      "contentWidth": 824,
+      "scrollWidth": 824,
+      "viewport": [
+        834,
+        1180
+      ]
+    },
+    {
+      "device": "mobile",
+      "page": "home",
+      "brokenImages": [],
+      "contentWidth": 380,
+      "scrollWidth": 380,
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "device": "mobile",
+      "page": "menu",
+      "brokenImages": [],
+      "contentWidth": 380,
+      "scrollWidth": 380,
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "device": "mobile",
+      "page": "journal",
+      "brokenImages": [],
+      "contentWidth": 380,
+      "scrollWidth": 380,
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "device": "mobile",
+      "page": "reservation",
+      "brokenImages": [],
+      "contentWidth": 380,
+      "scrollWidth": 380,
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "check": "mobile-menu-lock-escape",
+      "passed": true
+    },
+    {
+      "check": "cup-initial",
+      "device": "mobile",
+      "cup": "opacity: 1; transform: none; position: fixed; inset: 96.375px auto auto 52.6667px; width: 269.333px; height: 269.333px;",
+      "scrollY": 0
+    },
+    {
+      "check": "cup-running",
+      "device": "mobile",
+      "contentWidth": 380,
+      "cup": "opacity: 1; transform: translateX(166.9px) translateY(243.52px) scale(0.49253); position: fixed; inset: 96.375px auto auto 52.6667px; width: 269.333px; height: 269.333px;",
+      "scrollWidth": 380,
+      "scrollY": 738
+    },
+    {
+      "check": "cup-docked",
+      "device": "mobile",
+      "cup": "opacity: 1; transform: translateX(190.944px) translateY(278.463px) scale(0.42); position: fixed; inset: 96.375px auto auto 52.6667px; width: 269.333px; height: 269.333px;",
+      "scrollY": 738
+    },
+    {
+      "check": "cup-end",
+      "device": "mobile",
+      "contentWidth": 380,
+      "cup": "opacity: 0; transform: translateX(174.909px) translateY(287.071px) scale(0.42); position: fixed; inset: 96.375px auto auto 52.6667px; width: 269.333px; height: 269.333px;",
+      "scrollWidth": 380,
+      "scrollY": 10047.3330078125
+    },
+    {
+      "device": "mobile",
+      "locale": "zh",
+      "slug": "",
+      "broken": [],
+      "contentWidth": 375,
+      "scrollWidth": 375,
+      "width": 390
+    },
+    {
+      "device": "mobile",
+      "locale": "en",
+      "slug": "",
+      "broken": [],
+      "contentWidth": 375,
+      "scrollWidth": 375,
+      "width": 390
+    },
+    {
+      "device": "mobile",
+      "locale": "zh",
+      "slug": "about",
+      "broken": [],
+      "contentWidth": 380,
+      "scrollWidth": 380,
+      "width": 390
+    },
+    {
+      "device": "mobile",
+      "locale": "en",
+      "slug": "about",
+      "broken": [],
+      "contentWidth": 380,
+      "scrollWidth": 380,
+      "width": 390
+    },
+    {
+      "device": "mobile",
+      "locale": "zh",
+      "slug": "menu",
+      "broken": [],
+      "contentWidth": 380,
+      "scrollWidth": 380,
+      "width": 390
+    },
+    {
+      "device": "mobile",
+      "locale": "en",
+      "slug": "menu",
+      "broken": [],
+      "contentWidth": 380,
+      "scrollWidth": 380,
+      "width": 390
+    },
+    {
+      "device": "mobile",
+      "locale": "zh",
+      "slug": "journal",
+      "broken": [],
+      "contentWidth": 380,
+      "scrollWidth": 380,
+      "width": 390
+    },
+    {
+      "device": "mobile",
+      "locale": "en",
+      "slug": "journal",
+      "broken": [],
+      "contentWidth": 375,
+      "scrollWidth": 375,
+      "width": 390
+    },
+    {
+      "device": "mobile",
+      "locale": "zh",
+      "slug": "locations",
+      "broken": [],
+      "contentWidth": 375,
+      "scrollWidth": 375,
+      "width": 390
+    },
+    {
+      "device": "mobile",
+      "locale": "en",
+      "slug": "locations",
+      "broken": [],
+      "contentWidth": 380,
+      "scrollWidth": 380,
+      "width": 390
+    },
+    {
+      "device": "mobile",
+      "locale": "zh",
+      "slug": "reservation",
+      "broken": [],
+      "contentWidth": 380,
+      "scrollWidth": 380,
+      "width": 390
+    },
+    {
+      "device": "mobile",
+      "locale": "en",
+      "slug": "reservation",
+      "broken": [],
+      "contentWidth": 380,
+      "scrollWidth": 380,
+      "width": 390
+    },
+    {
+      "device": "mobile",
+      "locale": "zh",
+      "slug": "privacy-policy",
+      "broken": [],
+      "contentWidth": 380,
+      "scrollWidth": 380,
+      "width": 390
+    },
+    {
+      "device": "mobile",
+      "locale": "en",
+      "slug": "privacy-policy",
+      "broken": [],
+      "contentWidth": 380,
+      "scrollWidth": 380,
+      "width": 390
+    },
+    {
+      "device": "mobile",
+      "locale": "zh",
+      "slug": "journal/beginners-guide-to-cold-brew",
+      "broken": [],
+      "contentWidth": 380,
+      "scrollWidth": 380,
+      "width": 390
+    },
+    {
+      "device": "mobile",
+      "locale": "en",
+      "slug": "journal/beginners-guide-to-cold-brew",
+      "broken": [],
+      "contentWidth": 380,
+      "scrollWidth": 380,
+      "width": 390
+    },
+    {
+      "device": "mobile",
+      "locale": "zh",
+      "slug": "journal/find-your-coffee-flavour-profile",
+      "broken": [],
+      "contentWidth": 380,
+      "scrollWidth": 380,
+      "width": 390
+    },
+    {
+      "device": "mobile",
+      "locale": "en",
+      "slug": "journal/find-your-coffee-flavour-profile",
+      "broken": [],
+      "contentWidth": 380,
+      "scrollWidth": 380,
+      "width": 390
+    },
+    {
+      "device": "mobile",
+      "locale": "zh",
+      "slug": "journal/the-little-ritual-of-a-great-coffee-break",
+      "broken": [],
+      "contentWidth": 380,
+      "scrollWidth": 380,
+      "width": 390
+    },
+    {
+      "device": "mobile",
+      "locale": "en",
+      "slug": "journal/the-little-ritual-of-a-great-coffee-break",
+      "broken": [],
+      "contentWidth": 380,
+      "scrollWidth": 380,
+      "width": 390
+    },
+    {
+      "device": "mobile",
+      "locale": "zh",
+      "slug": "journal/espresso-latte-flat-white-difference",
+      "broken": [],
+      "contentWidth": 380,
+      "scrollWidth": 380,
+      "width": 390
+    },
+    {
+      "device": "mobile",
+      "locale": "en",
+      "slug": "journal/espresso-latte-flat-white-difference",
+      "broken": [],
+      "contentWidth": 375,
+      "scrollWidth": 375,
+      "width": 390
+    },
+    {
+      "device": "mobile",
+      "locale": "zh",
+      "slug": "journal/behind-the-cup-details-that-matter",
+      "broken": [],
+      "contentWidth": 380,
+      "scrollWidth": 380,
+      "width": 390
+    },
+    {
+      "device": "mobile",
+      "locale": "en",
+      "slug": "journal/behind-the-cup-details-that-matter",
+      "broken": [],
+      "contentWidth": 380,
+      "scrollWidth": 380,
+      "width": 390
+    },
+    {
+      "device": "mobile",
+      "locale": "zh",
+      "slug": "journal/pairing-coffee-with-your-favourite-bake",
+      "broken": [],
+      "contentWidth": 380,
+      "scrollWidth": 380,
+      "width": 390
+    },
+    {
+      "device": "mobile",
+      "locale": "en",
+      "slug": "journal/pairing-coffee-with-your-favourite-bake",
+      "broken": [],
+      "contentWidth": 375,
+      "scrollWidth": 375,
+      "width": 390
+    },
+    {
+      "device": "tablet",
+      "locale": "zh",
+      "slug": "",
+      "broken": [],
+      "contentWidth": 824,
+      "scrollWidth": 824,
+      "width": 834
+    },
+    {
+      "device": "tablet",
+      "locale": "en",
+      "slug": "",
+      "broken": [],
+      "contentWidth": 824,
+      "scrollWidth": 824,
+      "width": 834
+    },
+    {
+      "device": "tablet",
+      "locale": "zh",
+      "slug": "about",
+      "broken": [],
+      "contentWidth": 824,
+      "scrollWidth": 824,
+      "width": 834
+    },
+    {
+      "device": "tablet",
+      "locale": "en",
+      "slug": "about",
+      "broken": [],
+      "contentWidth": 824,
+      "scrollWidth": 824,
+      "width": 834
+    },
+    {
+      "device": "tablet",
+      "locale": "zh",
+      "slug": "menu",
+      "broken": [],
+      "contentWidth": 824,
+      "scrollWidth": 824,
+      "width": 834
+    },
+    {
+      "device": "tablet",
+      "locale": "en",
+      "slug": "menu",
+      "broken": [],
+      "contentWidth": 824,
+      "scrollWidth": 824,
+      "width": 834
+    },
+    {
+      "device": "tablet",
+      "locale": "zh",
+      "slug": "journal",
+      "broken": [],
+      "contentWidth": 824,
+      "scrollWidth": 824,
+      "width": 834
+    },
+    {
+      "device": "tablet",
+      "locale": "en",
+      "slug": "journal",
+      "broken": [],
+      "contentWidth": 824,
+      "scrollWidth": 824,
+      "width": 834
+    },
+    {
+      "device": "tablet",
+      "locale": "zh",
+      "slug": "locations",
+      "broken": [],
+      "contentWidth": 824,
+      "scrollWidth": 824,
+      "width": 834
+    },
+    {
+      "device": "tablet",
+      "locale": "en",
+      "slug": "locations",
+      "broken": [],
+      "contentWidth": 824,
+      "scrollWidth": 824,
+      "width": 834
+    },
+    {
+      "device": "tablet",
+      "locale": "zh",
+      "slug": "reservation",
+      "broken": [],
+      "contentWidth": 824,
+      "scrollWidth": 824,
+      "width": 834
+    },
+    {
+      "device": "tablet",
+      "locale": "en",
+      "slug": "reservation",
+      "broken": [],
+      "contentWidth": 824,
+      "scrollWidth": 824,
+      "width": 834
+    },
+    {
+      "device": "tablet",
+      "locale": "zh",
+      "slug": "privacy-policy",
+      "broken": [],
+      "contentWidth": 824,
+      "scrollWidth": 824,
+      "width": 834
+    },
+    {
+      "device": "tablet",
+      "locale": "en",
+      "slug": "privacy-policy",
+      "broken": [],
+      "contentWidth": 824,
+      "scrollWidth": 824,
+      "width": 834
+    },
+    {
+      "device": "tablet",
+      "locale": "zh",
+      "slug": "journal/beginners-guide-to-cold-brew",
+      "broken": [],
+      "contentWidth": 824,
+      "scrollWidth": 824,
+      "width": 834
+    },
+    {
+      "device": "tablet",
+      "locale": "en",
+      "slug": "journal/beginners-guide-to-cold-brew",
+      "broken": [],
+      "contentWidth": 824,
+      "scrollWidth": 824,
+      "width": 834
+    },
+    {
+      "device": "tablet",
+      "locale": "zh",
+      "slug": "journal/find-your-coffee-flavour-profile",
+      "broken": [],
+      "contentWidth": 824,
+      "scrollWidth": 824,
+      "width": 834
+    },
+    {
+      "device": "tablet",
+      "locale": "en",
+      "slug": "journal/find-your-coffee-flavour-profile",
+      "broken": [],
+      "contentWidth": 824,
+      "scrollWidth": 824,
+      "width": 834
+    },
+    {
+      "device": "tablet",
+      "locale": "zh",
+      "slug": "journal/the-little-ritual-of-a-great-coffee-break",
+      "broken": [],
+      "contentWidth": 824,
+      "scrollWidth": 824,
+      "width": 834
+    },
+    {
+      "device": "tablet",
+      "locale": "en",
+      "slug": "journal/the-little-ritual-of-a-great-coffee-break",
+      "broken": [],
+      "contentWidth": 824,
+      "scrollWidth": 824,
+      "width": 834
+    },
+    {
+      "device": "tablet",
+      "locale": "zh",
+      "slug": "journal/espresso-latte-flat-white-difference",
+      "broken": [],
+      "contentWidth": 824,
+      "scrollWidth": 824,
+      "width": 834
+    },
+    {
+      "device": "tablet",
+      "locale": "en",
+      "slug": "journal/espresso-latte-flat-white-difference",
+      "broken": [],
+      "contentWidth": 824,
+      "scrollWidth": 824,
+      "width": 834
+    },
+    {
+      "device": "tablet",
+      "locale": "zh",
+      "slug": "journal/behind-the-cup-details-that-matter",
+      "broken": [],
+      "contentWidth": 824,
+      "scrollWidth": 824,
+      "width": 834
+    },
+    {
+      "device": "tablet",
+      "locale": "en",
+      "slug": "journal/behind-the-cup-details-that-matter",
+      "broken": [],
+      "contentWidth": 824,
+      "scrollWidth": 824,
+      "width": 834
+    },
+    {
+      "device": "tablet",
+      "locale": "zh",
+      "slug": "journal/pairing-coffee-with-your-favourite-bake",
+      "broken": [],
+      "contentWidth": 824,
+      "scrollWidth": 824,
+      "width": 834
+    },
+    {
+      "device": "tablet",
+      "locale": "en",
+      "slug": "journal/pairing-coffee-with-your-favourite-bake",
+      "broken": [],
+      "contentWidth": 824,
+      "scrollWidth": 824,
+      "width": 834
+    },
+    {
+      "device": "desktop",
+      "locale": "zh",
+      "slug": "",
+      "broken": [],
+      "contentWidth": 1430,
+      "scrollWidth": 1430,
+      "width": 1440
+    },
+    {
+      "device": "desktop",
+      "locale": "en",
+      "slug": "",
+      "broken": [],
+      "contentWidth": 1430,
+      "scrollWidth": 1430,
+      "width": 1440
+    },
+    {
+      "device": "desktop",
+      "locale": "zh",
+      "slug": "about",
+      "broken": [],
+      "contentWidth": 1430,
+      "scrollWidth": 1430,
+      "width": 1440
+    },
+    {
+      "device": "desktop",
+      "locale": "en",
+      "slug": "about",
+      "broken": [],
+      "contentWidth": 1430,
+      "scrollWidth": 1430,
+      "width": 1440
+    },
+    {
+      "device": "desktop",
+      "locale": "zh",
+      "slug": "menu",
+      "broken": [],
+      "contentWidth": 1430,
+      "scrollWidth": 1430,
+      "width": 1440
+    },
+    {
+      "device": "desktop",
+      "locale": "en",
+      "slug": "menu",
+      "broken": [],
+      "contentWidth": 1430,
+      "scrollWidth": 1430,
+      "width": 1440
+    },
+    {
+      "device": "desktop",
+      "locale": "zh",
+      "slug": "journal",
+      "broken": [],
+      "contentWidth": 1430,
+      "scrollWidth": 1430,
+      "width": 1440
+    },
+    {
+      "device": "desktop",
+      "locale": "en",
+      "slug": "journal",
+      "broken": [],
+      "contentWidth": 1425,
+      "scrollWidth": 1425,
+      "width": 1440
+    },
+    {
+      "device": "desktop",
+      "locale": "zh",
+      "slug": "locations",
+      "broken": [],
+      "contentWidth": 1430,
+      "scrollWidth": 1430,
+      "width": 1440
+    },
+    {
+      "device": "desktop",
+      "locale": "en",
+      "slug": "locations",
+      "broken": [],
+      "contentWidth": 1430,
+      "scrollWidth": 1430,
+      "width": 1440
+    },
+    {
+      "device": "desktop",
+      "locale": "zh",
+      "slug": "reservation",
+      "broken": [],
+      "contentWidth": 1430,
+      "scrollWidth": 1430,
+      "width": 1440
+    },
+    {
+      "device": "desktop",
+      "locale": "en",
+      "slug": "reservation",
+      "broken": [],
+      "contentWidth": 1430,
+      "scrollWidth": 1430,
+      "width": 1440
+    },
+    {
+      "device": "desktop",
+      "locale": "zh",
+      "slug": "privacy-policy",
+      "broken": [],
+      "contentWidth": 1430,
+      "scrollWidth": 1430,
+      "width": 1440
+    },
+    {
+      "device": "desktop",
+      "locale": "en",
+      "slug": "privacy-policy",
+      "broken": [],
+      "contentWidth": 1430,
+      "scrollWidth": 1430,
+      "width": 1440
+    },
+    {
+      "device": "desktop",
+      "locale": "zh",
+      "slug": "journal/beginners-guide-to-cold-brew",
+      "broken": [],
+      "contentWidth": 1430,
+      "scrollWidth": 1430,
+      "width": 1440
+    },
+    {
+      "device": "desktop",
+      "locale": "en",
+      "slug": "journal/beginners-guide-to-cold-brew",
+      "broken": [],
+      "contentWidth": 1430,
+      "scrollWidth": 1430,
+      "width": 1440
+    },
+    {
+      "device": "desktop",
+      "locale": "zh",
+      "slug": "journal/find-your-coffee-flavour-profile",
+      "broken": [],
+      "contentWidth": 1430,
+      "scrollWidth": 1430,
+      "width": 1440
+    },
+    {
+      "device": "desktop",
+      "locale": "en",
+      "slug": "journal/find-your-coffee-flavour-profile",
+      "broken": [],
+      "contentWidth": 1430,
+      "scrollWidth": 1430,
+      "width": 1440
+    },
+    {
+      "device": "desktop",
+      "locale": "zh",
+      "slug": "journal/the-little-ritual-of-a-great-coffee-break",
+      "broken": [],
+      "contentWidth": 1430,
+      "scrollWidth": 1430,
+      "width": 1440
+    },
+    {
+      "device": "desktop",
+      "locale": "en",
+      "slug": "journal/the-little-ritual-of-a-great-coffee-break",
+      "broken": [],
+      "contentWidth": 1430,
+      "scrollWidth": 1430,
+      "width": 1440
+    },
+    {
+      "device": "desktop",
+      "locale": "zh",
+      "slug": "journal/espresso-latte-flat-white-difference",
+      "broken": [],
+      "contentWidth": 1430,
+      "scrollWidth": 1430,
+      "width": 1440
+    },
+    {
+      "device": "desktop",
+      "locale": "en",
+      "slug": "journal/espresso-latte-flat-white-difference",
+      "broken": [],
+      "contentWidth": 1430,
+      "scrollWidth": 1430,
+      "width": 1440
+    },
+    {
+      "device": "desktop",
+      "locale": "zh",
+      "slug": "journal/behind-the-cup-details-that-matter",
+      "broken": [],
+      "contentWidth": 1430,
+      "scrollWidth": 1430,
+      "width": 1440
+    },
+    {
+      "device": "desktop",
+      "locale": "en",
+      "slug": "journal/behind-the-cup-details-that-matter",
+      "broken": [],
+      "contentWidth": 1430,
+      "scrollWidth": 1430,
+      "width": 1440
+    },
+    {
+      "device": "desktop",
+      "locale": "zh",
+      "slug": "journal/pairing-coffee-with-your-favourite-bake",
+      "broken": [],
+      "contentWidth": 1430,
+      "scrollWidth": 1430,
+      "width": 1440
+    },
+    {
+      "device": "desktop",
+      "locale": "en",
+      "slug": "journal/pairing-coffee-with-your-favourite-bake",
+      "broken": [],
+      "contentWidth": 1430,
+      "scrollWidth": 1430,
+      "width": 1440
+    },
+    {
+      "device": "narrow",
+      "locale": "zh",
+      "slug": "",
+      "broken": [],
+      "contentWidth": 310,
+      "scrollWidth": 310,
+      "width": 320
+    },
+    {
+      "device": "narrow",
+      "locale": "en",
+      "slug": "",
+      "broken": [],
+      "contentWidth": 310,
+      "scrollWidth": 310,
+      "width": 320
+    },
+    {
+      "device": "narrow",
+      "locale": "zh",
+      "slug": "about",
+      "broken": [],
+      "contentWidth": 310,
+      "scrollWidth": 310,
+      "width": 320
+    },
+    {
+      "device": "narrow",
+      "locale": "en",
+      "slug": "about",
+      "broken": [],
+      "contentWidth": 310,
+      "scrollWidth": 310,
+      "width": 320
+    },
+    {
+      "device": "narrow",
+      "locale": "zh",
+      "slug": "menu",
+      "broken": [],
+      "contentWidth": 310,
+      "scrollWidth": 310,
+      "width": 320
+    },
+    {
+      "device": "narrow",
+      "locale": "en",
+      "slug": "menu",
+      "broken": [],
+      "contentWidth": 310,
+      "scrollWidth": 310,
+      "width": 320
+    },
+    {
+      "device": "narrow",
+      "locale": "zh",
+      "slug": "journal",
+      "broken": [],
+      "contentWidth": 310,
+      "scrollWidth": 310,
+      "width": 320
+    },
+    {
+      "device": "narrow",
+      "locale": "en",
+      "slug": "journal",
+      "broken": [],
+      "contentWidth": 310,
+      "scrollWidth": 310,
+      "width": 320
+    },
+    {
+      "device": "narrow",
+      "locale": "zh",
+      "slug": "locations",
+      "broken": [],
+      "contentWidth": 310,
+      "scrollWidth": 310,
+      "width": 320
+    },
+    {
+      "device": "narrow",
+      "locale": "en",
+      "slug": "locations",
+      "broken": [],
+      "contentWidth": 310,
+      "scrollWidth": 310,
+      "width": 320
+    },
+    {
+      "device": "narrow",
+      "locale": "zh",
+      "slug": "reservation",
+      "broken": [],
+      "contentWidth": 310,
+      "scrollWidth": 310,
+      "width": 320
+    },
+    {
+      "device": "narrow",
+      "locale": "en",
+      "slug": "reservation",
+      "broken": [],
+      "contentWidth": 305,
+      "scrollWidth": 305,
+      "width": 320
+    },
+    {
+      "device": "narrow",
+      "locale": "zh",
+      "slug": "privacy-policy",
+      "broken": [],
+      "contentWidth": 310,
+      "scrollWidth": 310,
+      "width": 320
+    },
+    {
+      "device": "narrow",
+      "locale": "en",
+      "slug": "privacy-policy",
+      "broken": [],
+      "contentWidth": 310,
+      "scrollWidth": 310,
+      "width": 320
+    },
+    {
+      "device": "narrow",
+      "locale": "zh",
+      "slug": "journal/beginners-guide-to-cold-brew",
+      "broken": [],
+      "contentWidth": 310,
+      "scrollWidth": 310,
+      "width": 320
+    },
+    {
+      "device": "narrow",
+      "locale": "en",
+      "slug": "journal/beginners-guide-to-cold-brew",
+      "broken": [],
+      "contentWidth": 310,
+      "scrollWidth": 310,
+      "width": 320
+    },
+    {
+      "device": "narrow",
+      "locale": "zh",
+      "slug": "journal/find-your-coffee-flavour-profile",
+      "broken": [],
+      "contentWidth": 310,
+      "scrollWidth": 310,
+      "width": 320
+    },
+    {
+      "device": "narrow",
+      "locale": "en",
+      "slug": "journal/find-your-coffee-flavour-profile",
+      "broken": [],
+      "contentWidth": 310,
+      "scrollWidth": 310,
+      "width": 320
+    },
+    {
+      "device": "narrow",
+      "locale": "zh",
+      "slug": "journal/the-little-ritual-of-a-great-coffee-break",
+      "broken": [],
+      "contentWidth": 310,
+      "scrollWidth": 310,
+      "width": 320
+    },
+    {
+      "device": "narrow",
+      "locale": "en",
+      "slug": "journal/the-little-ritual-of-a-great-coffee-break",
+      "broken": [],
+      "contentWidth": 310,
+      "scrollWidth": 310,
+      "width": 320
+    },
+    {
+      "device": "narrow",
+      "locale": "zh",
+      "slug": "journal/espresso-latte-flat-white-difference",
+      "broken": [],
+      "contentWidth": 310,
+      "scrollWidth": 310,
+      "width": 320
+    },
+    {
+      "device": "narrow",
+      "locale": "en",
+      "slug": "journal/espresso-latte-flat-white-difference",
+      "broken": [],
+      "contentWidth": 310,
+      "scrollWidth": 310,
+      "width": 320
+    },
+    {
+      "device": "narrow",
+      "locale": "zh",
+      "slug": "journal/behind-the-cup-details-that-matter",
+      "broken": [],
+      "contentWidth": 310,
+      "scrollWidth": 310,
+      "width": 320
+    },
+    {
+      "device": "narrow",
+      "locale": "en",
+      "slug": "journal/behind-the-cup-details-that-matter",
+      "broken": [],
+      "contentWidth": 310,
+      "scrollWidth": 310,
+      "width": 320
+    },
+    {
+      "device": "narrow",
+      "locale": "zh",
+      "slug": "journal/pairing-coffee-with-your-favourite-bake",
+      "broken": [],
+      "contentWidth": 310,
+      "scrollWidth": 310,
+      "width": 320
+    },
+    {
+      "device": "narrow",
+      "locale": "en",
+      "slug": "journal/pairing-coffee-with-your-favourite-bake",
+      "broken": [],
+      "contentWidth": 310,
+      "scrollWidth": 310,
+      "width": 320
+    },
+    {
+      "check": "cup-initial",
+      "device": "desktop",
+      "cup": "opacity: 1; transform: none; position: fixed; inset: 244.667px auto auto 822.333px; width: 440px; height: 440px;",
+      "scrollY": 0
+    },
+    {
+      "check": "cup-running",
+      "device": "desktop",
+      "contentWidth": 1430,
+      "cup": "opacity: 1; transform: translateX(171.802px) translateY(73.814px) scale(0.67832); position: fixed; inset: 244.667px auto auto 822.333px; width: 440px; height: 440px;",
+      "scrollWidth": 1430,
+      "scrollY": 874.6666870117188
+    },
+    {
+      "check": "faq-and-cup-docked",
+      "device": "desktop",
+      "contentWidth": 1430,
+      "cup": "opacity: 1; transform: translateX(330.876px) translateY(127.538px) scale(0.419221); position: fixed; inset: 244.667px auto auto 822.333px; width: 440px; height: 440px;",
+      "expanded": "true",
+      "scrollWidth": 1430
+    },
+    {
+      "check": "cup-end",
+      "device": "desktop",
+      "cup": "opacity: 0.537618; transform: translateX(317.942px) translateY(133.688px) scale(0.404379); position: fixed; inset: 244.667px auto auto 822.333px; width: 440px; height: 440px;",
+      "scrollY": 7572.66650390625
+    },
+    {
+      "check": "cup-initial",
+      "device": "tablet",
+      "cup": "opacity: 1; transform: none; position: fixed; inset: 266.733px auto auto 453.817px; width: 295.867px; height: 295.867px;",
+      "scrollY": 0
+    },
+    {
+      "check": "cup-running",
+      "device": "tablet",
+      "contentWidth": 824,
+      "cup": "opacity: 1; transform: translateX(112.713px) translateY(169.784px) scale(0.676039); position: fixed; inset: 266.733px auto auto 453.817px; width: 295.867px; height: 295.867px;",
+      "scrollWidth": 824,
+      "scrollY": 1032
+    },
+    {
+      "check": "faq-and-cup-docked",
+      "device": "tablet",
+      "contentWidth": 824,
+      "cup": "opacity: 0.898062; transform: translateX(213.533px) translateY(284.367px) scale(0.441824); position: fixed; inset: 266.733px auto auto 453.817px; width: 295.867px; height: 295.867px;",
+      "expanded": "true",
+      "scrollWidth": 824
+    },
+    {
+      "check": "cup-end",
+      "device": "tablet",
+      "cup": "opacity: 0.419916; transform: translateX(191.12px) translateY(292.545px) scale(0.434247); position: fixed; inset: 266.733px auto auto 453.817px; width: 295.867px; height: 295.867px;",
+      "scrollY": 7647.33349609375
+    },
+    {
+      "check": "cup-end-settled",
+      "device": "tablet",
+      "cup": "opacity: 0; transform: translateX(167.931px) translateY(297.378px) scale(0.432); position: fixed; inset: 266.733px auto auto 453.817px; width: 295.867px; height: 295.867px;",
+      "scrollY": 7647.33349609375
+    },
+    {
+      "check": "cup-end-settled",
+      "device": "desktop",
+      "cup": "opacity: 0; transform: translateX(293.847px) translateY(138.456px) scale(0.4); position: fixed; inset: 244.667px auto auto 822.333px; width: 440px; height: 440px;",
+      "scrollY": 7522.66650390625
+    },
+    {
+      "check": "final-screenshot",
+      "device": "desktop",
+      "page": "home",
+      "contentWidth": 1430,
+      "scrollWidth": 1430,
+      "viewport": [
+        1440,
+        1000
+      ]
+    },
+    {
+      "check": "final-screenshot",
+      "device": "desktop",
+      "page": "menu",
+      "contentWidth": 1430,
+      "scrollWidth": 1430,
+      "viewport": [
+        1440,
+        1000
+      ]
+    }
+  ],
+  "limitations": [
+    "减少动态效果分支未实机切换",
+    "未完成全部动效逐帧量化对照",
+    "截图已等待页面与标题动画结束后重拍"
+  ]
+}

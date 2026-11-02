@@ -1,0 +1,238 @@
+{
+  "$schema": "./schemas/template.schema.json",
+  "format": "git-template",
+  "formatVersion": "0.2.0",
+  "id": "coovia",
+  "version": "1.0.0",
+  "name": "COOVIA · 咖啡品牌",
+  "localizedNames": {
+    "en": "COOVIA · Coffee house"
+  },
+  "gitUrl": "https://github.com/weelume/coovia-template",
+  "sceneId": "corporate-site",
+  "listed": false,
+  "tags": [
+    "咖啡馆",
+    "暖棕奶油",
+    "咖啡装置",
+    "双语",
+    "PC / iPad / H5"
+  ],
+  "stack": [
+    "React",
+    "Next.js",
+    "TypeScript",
+    "framer-motion"
+  ],
+  "summary": "咖啡品牌整站，包含品牌故事、六类菜单、六篇咖啡日志、门店、预约演示与隐私政策。",
+  "accentColor": "#c78c4e",
+  "cover": "assets/desktop-home.webp",
+  "screenshots": [
+    {
+      "src": "assets/desktop-home.webp",
+      "alt": "coovia desktop home",
+      "device": "desktop",
+      "width": 1430,
+      "height": 993,
+      "surfaceId": "site"
+    },
+    {
+      "src": "assets/desktop-journal.webp",
+      "alt": "coovia desktop journal",
+      "device": "desktop",
+      "width": 1430,
+      "height": 993,
+      "surfaceId": "site"
+    },
+    {
+      "src": "assets/desktop-menu.webp",
+      "alt": "coovia desktop menu",
+      "device": "desktop",
+      "width": 1430,
+      "height": 993,
+      "surfaceId": "site"
+    },
+    {
+      "src": "assets/desktop-reservation.webp",
+      "alt": "coovia desktop reservation",
+      "device": "desktop",
+      "width": 1430,
+      "height": 993,
+      "surfaceId": "site"
+    },
+    {
+      "src": "assets/tablet-home.webp",
+      "alt": "coovia tablet home",
+      "device": "tablet",
+      "width": 824,
+      "height": 1166,
+      "surfaceId": "site"
+    },
+    {
+      "src": "assets/tablet-journal.webp",
+      "alt": "coovia tablet journal",
+      "device": "tablet",
+      "width": 824,
+      "height": 1166,
+      "surfaceId": "site"
+    },
+    {
+      "src": "assets/tablet-menu.webp",
+      "alt": "coovia tablet menu",
+      "device": "tablet",
+      "width": 824,
+      "height": 1166,
+      "surfaceId": "site"
+    },
+    {
+      "src": "assets/tablet-reservation.webp",
+      "alt": "coovia tablet reservation",
+      "device": "tablet",
+      "width": 824,
+      "height": 1166,
+      "surfaceId": "site"
+    },
+    {
+      "src": "assets/mobile-home.webp",
+      "alt": "coovia mobile home",
+      "device": "mobile",
+      "width": 380,
+      "height": 822,
+      "surfaceId": "site"
+    },
+    {
+      "src": "assets/mobile-journal.webp",
+      "alt": "coovia mobile journal",
+      "device": "mobile",
+      "width": 380,
+      "height": 822,
+      "surfaceId": "site"
+    },
+    {
+      "src": "assets/mobile-menu.webp",
+      "alt": "coovia mobile menu",
+      "device": "mobile",
+      "width": 380,
+      "height": 822,
+      "surfaceId": "site"
+    },
+    {
+      "src": "assets/mobile-reservation.webp",
+      "alt": "coovia mobile reservation",
+      "device": "mobile",
+      "width": 380,
+      "height": 822,
+      "surfaceId": "site"
+    }
+  ],
+  "surfaces": [
+    {
+      "id": "site",
+      "name": "官网",
+      "platform": "pc",
+      "locales": [
+        "zh",
+        "en"
+      ],
+      "pages": [
+        {
+          "slug": "",
+          "title": "首页",
+          "localizedTitles": {
+            "en": "Home"
+          }
+        },
+        {
+          "slug": "about",
+          "title": "品牌故事",
+          "localizedTitles": {
+            "en": "About"
+          }
+        },
+        {
+          "slug": "menu",
+          "title": "咖啡菜单",
+          "localizedTitles": {
+            "en": "Menu"
+          }
+        },
+        {
+          "slug": "journal",
+          "title": "咖啡日志",
+          "localizedTitles": {
+            "en": "Journal"
+          }
+        },
+        {
+          "slug": "journal/beginners-guide-to-cold-brew",
+          "title": "冷萃入门",
+          "localizedTitles": {
+            "en": "Cold brew guide"
+          }
+        },
+        {
+          "slug": "journal/find-your-coffee-flavour-profile",
+          "title": "咖啡风味",
+          "localizedTitles": {
+            "en": "Flavour profile"
+          }
+        },
+        {
+          "slug": "journal/the-little-ritual-of-a-great-coffee-break",
+          "title": "咖啡仪式",
+          "localizedTitles": {
+            "en": "Coffee rituals"
+          }
+        },
+        {
+          "slug": "journal/espresso-latte-flat-white-difference",
+          "title": "经典咖啡",
+          "localizedTitles": {
+            "en": "Coffee classics"
+          }
+        },
+        {
+          "slug": "journal/behind-the-cup-details-that-matter",
+          "title": "杯中细节",
+          "localizedTitles": {
+            "en": "Behind the cup"
+          }
+        },
+        {
+          "slug": "journal/pairing-coffee-with-your-favourite-bake",
+          "title": "咖啡与烘焙",
+          "localizedTitles": {
+            "en": "Coffee pairings"
+          }
+        },
+        {
+          "slug": "locations",
+          "title": "寻找门店",
+          "localizedTitles": {
+            "en": "Locations"
+          }
+        },
+        {
+          "slug": "reservation",
+          "title": "预约座位",
+          "localizedTitles": {
+            "en": "Reservation"
+          }
+        },
+        {
+          "slug": "privacy-policy",
+          "title": "隐私政策",
+          "localizedTitles": {
+            "en": "Privacy policy"
+          }
+        }
+      ]
+    }
+  ],
+  "license": {
+    "type": "commercial",
+    "file": "docs/LICENSE.md",
+    "summary": "用户已确认参考模板与素材再分发授权；各自许可仍适用。",
+    "redistributionAllowed": true
+  }
+}

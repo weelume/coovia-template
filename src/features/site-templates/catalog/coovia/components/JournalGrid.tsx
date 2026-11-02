@@ -1,0 +1,9 @@
+'use client'
+import { useState } from 'react'
+import Link from 'next/link'
+import { AnimatePresence, motion, useReducedMotion } from 'framer-motion'
+import { categories, stories } from '../content/journal'
+import { photo } from '../config'
+import type { TemplateLocale } from '../../../types'
+export function StoryCard({ index, locale, basePath }: { index: number; locale: TemplateLocale; basePath: string }) { const story=stories[index]; return <Link href={`${basePath}/journal/${story.slug}`} className="cv-story-card cv-glass"><div className="cv-story-image"><img src={photo(story.image)} alt={story.title[locale]} loading="lazy"/><span>{categories[story.category][locale]}</span></div><div className="cv-card-body"><div className="cv-story-meta"><time dateTime={story.date}>{new Intl.DateTimeFormat(locale==='zh'?'zh-CN':'en-US',{year:'numeric',month:'short',day:'numeric'}).format(new Date(story.date+'T12:00:00Z'))}</time><span>{story.minutes}{locale==='zh'?' 分钟阅读':' min read'}</span></div><h3>{story.title[locale]}</h3><p>{story.description[locale]}</p><span className="cv-story-read">{locale==='zh'?'阅读故事':'Read Story'}</span></div></Link> }
+export function JournalGrid({ locale, basePath }: { locale: TemplateLocale; basePath: string }) { const [category,setCategory]=useState(0),reduced=useReducedMotion();return <><div className="cv-filters" role="group" aria-label={locale==='zh'?'文章分类':'Story categories'}>{categories.map((c,i)=><button key={c.en} onClick={()=>setCategory(i)} aria-pressed={category===i}>{c[locale]}</button>)}</div><div className="cv-three-grid cv-journal-grid"><AnimatePresence mode="popLayout">{stories.map((story,i)=>(category===0||category===story.category)&&<motion.div layout key={story.slug} initial={{opacity:0,y:reduced?0:20}} animate={{opacity:1,y:0}} exit={{opacity:0,scale:reduced?1:.96}} transition={{duration:reduced?0:.35}}><StoryCard index={i} locale={locale} basePath={basePath}/></motion.div>)}</AnimatePresence></div></> }
